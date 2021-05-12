@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+	<order>
+		<order_no>1000</order_no>
+		<order_date>01.20.16</order_date>
+		<ship_to_name>Max Retail</ship_to_name>
+		<ship_to_address_1>1 Main Lane</ship_to_address_1>
+		<ship_to_city>Los Angeles</ship_to_city>
+		<ship_to_state>CA</ship_to_state>
+		<ship_to_ZIP>91111</ship_to_ZIP>
+		<ship_to_country>US</ship_to_country>
+		<ship_to_email>receiving@maxr.com</ship_to_email>
+		<ship_to_phone>323-555-1234</ship_to_phone>
+		<ship_to_company_name>Max Retail</ship_to_company_name>
+		<sku>diamond</sku>
+		<retailer_sku>r1_diamond</retailer_sku>
+		<upc>1234567891</upc>
+		<retailer_line_no>1</retailer_line_no>
+		<quantity>5</quantity>
+		<uom>PC</uom>
+		<net_price>1015,35</net_price>
+		<currency>USD</currency>
+		<delivery_date>01.23.16</delivery_date>
+	</order>
+	<order>
+		<order_no>1000</order_no>
+		<order_date>01.20.16</order_date>
+		<ship_to_name>Max Retail</ship_to_name>
+		<ship_to_address_1>1 Main Lane</ship_to_address_1>
+		<ship_to_city>Los Angeles</ship_to_city>
+		<ship_to_state>CA</ship_to_state>
+		<ship_to_ZIP>91111</ship_to_ZIP>
+		<ship_to_country>US</ship_to_country>
+		<ship_to_email>receiving@maxr.com</ship_to_email>
+		<ship_to_phone>323-555-1234</ship_to_phone>
+		<ship_to_company_name>Max Retail</ship_to_company_name>
+		<sku>ruby</sku>
+		<retailer_sku>r1_ruby</retailer_sku>
+		<upc>1234567333</upc>
+		<retailer_line_no>2</retailer_line_no>
+		<quantity>10</quantity>
+		<uom>PC</uom>
+		<net_price>1561,12</net_price>
+		<currency>USD</currency>
+		<delivery_date>01.23.16</delivery_date>
+	</order>
+	<order>
+		<order_no>1001</order_no>
+		<order_date>01.20.16</order_date>
+		<ship_to_name>Mart Store</ship_to_name>
+		<ship_to_address_1>1 Distribution Lane</ship_to_address_1>
+		<ship_to_city>Los Angeles</ship_to_city>
+		<ship_to_state>CA</ship_to_state>
+		<ship_to_ZIP>91111</ship_to_ZIP>
+		<ship_to_country>US</ship_to_country>
+		<ship_to_email>receiving@marts.com</ship_to_email>
+		<ship_to_phone>323-455-0000</ship_to_phone>
+		<ship_to_company_name>Mart Store</ship_to_company_name>
+		<sku>duffelbag</sku>
+		<retailer_sku>m1_duffel</retailer_sku>
+		<upc>1231816345</upc>
+		<retailer_line_no>1</retailer_line_no>
+		<quantity>10</quantity>
+		<uom>PC</uom>
+		<net_price>220,2</net_price>
+		<currency>USD</currency>
+		<delivery_date>01.21.16</delivery_date>
+	</order>
+	<order>
+		<order_no>1002</order_no>
+		<order_date>01.20.16</order_date>
+		<ship_to_name>Best Bikes</ship_to_name>
+		<ship_to_address_1>One East St.</ship_to_address_1>
+		<ship_to_city>Bronx</ship_to_city>
+		<ship_to_state>NY</ship_to_state>
+		<ship_to_ZIP>10452</ship_to_ZIP>
+		<ship_to_country>US</ship_to_country>
+		<ship_to_email>receiving@best.com</ship_to_email>
+		<ship_to_phone>323-500-1234</ship_to_phone>
+		<ship_to_company_name>Best Bikes</ship_to_company_name>
+		<sku>bike</sku>
+		<retailer_sku>b1_girls</retailer_sku>
+		<upc>1564813565</upc>
+		<retailer_line_no>1</retailer_line_no>
+		<quantity>1</quantity>
+		<uom>PC</uom>
+		<net_price>456,45</net_price>
+		<currency>USD</currency>
+		<delivery_date>01.25.16</delivery_date>
+	</order>
+</orders>
