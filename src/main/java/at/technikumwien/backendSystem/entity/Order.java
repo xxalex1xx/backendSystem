@@ -74,6 +74,9 @@ public class Order {
     @JacksonXmlProperty
     private String delivery_date;
 
+    @JacksonXmlProperty(localName = "vendor_no")
+    private long vendorNo;
+
     public long getId() {
         return id;
     }
@@ -240,6 +243,14 @@ public class Order {
 
     public void setDelivery_date(String delivery_date) {
         this.delivery_date = delivery_date;
+    }
+
+    public long getVendorNo() {
+        return vendorNo;
+    }
+
+    public void setVendorNo(long vendorNo) {
+        this.vendorNo = vendorNo;
     }
 
     @Override

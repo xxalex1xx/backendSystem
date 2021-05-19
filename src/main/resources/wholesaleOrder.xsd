@@ -25,6 +25,7 @@
               <xs:element type="xs:string" name="net_price"/>
               <xs:element type="xs:string" name="currency"/>
               <xs:element type="xs:string" name="delivery_date"/>
+              <xs:element type="xs:int" name="vendor_no"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>

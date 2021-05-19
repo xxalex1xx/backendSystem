@@ -29,9 +29,17 @@ public class OrderController {
         return xmlOrders;
     }
 
-    @GetMapping(value = "/query", produces= MediaType.APPLICATION_XML_VALUE)
+    @GetMapping(value = "/query/order/", produces= MediaType.APPLICATION_XML_VALUE)
     public Orders findOrdersByOrderNo(@RequestParam(value = "orderNo") long orderNo) {
         List<Order> orders = orderRepository.findByOrderNo(orderNo);
+        Orders xmlOrders = new Orders();
+        xmlOrders.setOrders(orders);
+        return xmlOrders;
+    }
+
+    @GetMapping(value = "/query", produces= MediaType.APPLICATION_XML_VALUE)
+    public Orders findOrdersByVendorNo(@RequestParam(value = "vendorNo") long vendorNo) {
+        List<Order> orders = orderRepository.findByVendorNo(vendorNo);
         Orders xmlOrders = new Orders();
         xmlOrders.setOrders(orders);
         return xmlOrders;

@@ -21,6 +21,7 @@
 		<net_price>1015,35</net_price>
 		<currency>USD</currency>
 		<delivery_date>01.23.16</delivery_date>
+		<vendor_no>1</vendor_no>
 	</order>
 	<order>
 		<order_no>1000</order_no>
@@ -43,6 +44,7 @@
 		<net_price>1561,12</net_price>
 		<currency>USD</currency>
 		<delivery_date>01.23.16</delivery_date>
+		<vendor_no>1</vendor_no>
 	</order>
 	<order>
 		<order_no>1001</order_no>
@@ -65,6 +67,7 @@
 		<net_price>220,2</net_price>
 		<currency>USD</currency>
 		<delivery_date>01.21.16</delivery_date>
+		<vendor_no>2</vendor_no>
 	</order>
 	<order>
 		<order_no>1002</order_no>
@@ -87,5 +90,6 @@
 		<net_price>456,45</net_price>
 		<currency>USD</currency>
 		<delivery_date>01.25.16</delivery_date>
+		<vendor_no>2</vendor_no>
 	</order>
 </orders>

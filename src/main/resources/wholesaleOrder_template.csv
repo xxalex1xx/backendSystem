@@ -1,0 +1,5 @@
+﻿[order_no];[order_date];[ship_to_name];[ship_to_address_1];[ship_to_city];[ship_to_state];[ship_to_ZIP];[ship_to_country];[ship_to_email];[ship_to_phone];[ship_to_company_name];[sku];[retailer_sku];[upc];[retailer_line_no];[quantity];[uom];[net_price];[currency];[delivery_date];[vendor_no]
+1000;01.20.16;Max Retail;1 Main Lane;Los Angeles;CA;91111;US;receiving@maxr.com;323-555-1234;Max Retail;diamond;r1_diamond;1234567891;1;5;PC;1015,35;USD;01.23.16;1
+1000;01.20.16;Max Retail;1 Main Lane;Los Angeles;CA;91111;US;receiving@maxr.com;323-555-1234;Max Retail;ruby;r1_ruby;1234567333;2;10;PC;1561,12;USD;01.23.16;1
+1001;01.20.16;Mart Store;1 Distribution Lane;Los Angeles;CA;91111;US;receiving@marts.com;323-455-0000;Mart Store;duffelbag;m1_duffel;1231816345;1;10;PC;220,2;USD;01.21.16;2
+1002;01.20.16;Best Bikes;One East St.;Bronx;NY;10452;US;receiving@best.com;323-500-1234;Best Bikes;bike;b1_girls;1564813565;1;1;PC;456,45;USD;01.25.16;2
