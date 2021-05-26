@@ -1,5 +1,6 @@
 package at.technikumwien.backendSystem.controller;
 
+import at.technikumwien.backendSystem.entity.Envelope;
 import at.technikumwien.backendSystem.entity.Order;
 import at.technikumwien.backendSystem.entity.Orders;
 import at.technikumwien.backendSystem.repository.OrderRepository;
@@ -45,11 +46,11 @@ public class OrderController {
         return xmlOrders;
     }
 
-    @PostMapping(value = "/save", produces= MediaType.APPLICATION_XML_VALUE)
-    public Orders saveOrders(@Validated @RequestBody Orders orders) {
-        for(Order order : orders.getOrders()) {
+    @PostMapping(value = "/save", produces= MediaType.TEXT_XML_VALUE, consumes = MediaType.TEXT_XML_VALUE)
+    public Orders saveOrders(@Validated @RequestBody Envelope envelope) {
+        for(Order order : envelope.getBody().getOrders().getOrders()) {
             orderRepository.save(order);
         }
-        return orders;
+        return envelope.getBody().getOrders();
     }
 }

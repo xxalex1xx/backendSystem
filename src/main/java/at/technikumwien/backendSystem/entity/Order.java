@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "order_table")
-@JacksonXmlRootElement(localName = "order")
+@JacksonXmlRootElement(localName = "Order")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

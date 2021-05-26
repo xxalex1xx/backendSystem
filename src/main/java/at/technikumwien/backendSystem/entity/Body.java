@@ -4,22 +4,19 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
-import java.util.ArrayList;
-import java.util.List;
+@JacksonXmlRootElement(localName = "Body", namespace = "s")
+public class Body {
+    private static final long serialVersionUID = 25L;
 
-@JacksonXmlRootElement(localName = "Orders")
-public class Orders {
-    private static final long serialVersionUID = 22L;
-
-    @JacksonXmlProperty(localName = "Order")
+    @JacksonXmlProperty(localName = "Orders")
     @JacksonXmlElementWrapper(useWrapping = false)
-    private List<Order> orders = new ArrayList<>();
+    private Orders orders = new Orders();
 
-    public List<Order> getOrders() {
+    public Orders getOrders() {
         return orders;
     }
 
-    public void setOrders(List<Order> orders) {
+    public void setOrders(Orders orders) {
         this.orders = orders;
     }
 }
