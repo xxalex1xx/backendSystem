@@ -9,6 +9,7 @@ import org.springframework.http.MediaType;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -49,6 +50,7 @@ public class OrderController {
     @PostMapping(value = "/save", produces= MediaType.TEXT_XML_VALUE, consumes = MediaType.TEXT_XML_VALUE)
     public Orders saveOrders(@Validated @RequestBody Envelope envelope) {
         for(Order order : envelope.getBody().getOrders().getOrders()) {
+            order.setCreatedAt(new Date());
             orderRepository.save(order);
         }
         return envelope.getBody().getOrders();

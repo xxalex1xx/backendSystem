@@ -4,6 +4,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 import javax.persistence.*;
+import java.util.Date;
 import java.util.Objects;
 
 @Entity
@@ -76,6 +77,9 @@ public class Order {
 
     @JacksonXmlProperty(localName = "vendor_no")
     private long vendorNo;
+
+    @JacksonXmlProperty
+    private Date createdAt;
 
     public long getId() {
         return id;
@@ -251,6 +255,14 @@ public class Order {
 
     public void setVendorNo(long vendorNo) {
         this.vendorNo = vendorNo;
+    }
+
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
     }
 
     @Override
