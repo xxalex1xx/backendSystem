@@ -15,7 +15,7 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
 
-    @JacksonXmlProperty(localName = "order_no")
+    @JacksonXmlProperty(localName = "order_no_x005D_")
     private long orderNo;
 
     @JacksonXmlProperty
